@@ -1,0 +1,95 @@
+p {
+    line-height: 1.6;
+}
+
+article {
+    padding: 1rem;
+}
+
+article + article {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-top: 1px solid gray;
+}
+
+.left {
+    height: 100%;
+    width: 18%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F0F0FF;
+    overflow-x: hidden;
+    padding-top: 3rem;
+    float:left;
+}
+
+.menu {
+    margin-left: auto;
+    margin-right: auto;
+    width: 12rem;
+}
+
+.right {
+    height: 100%;
+    width: 82%;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    float:right;
+}
+
+.content-title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70rem;
+    font-size: 150%;
+    padding: 1rem;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50rem;
+    padding: 1rem;
+}
+
+.post-title {
+    padding: 1rem;
+    font-size: 120%;
+}
+
+.post-info {
+    padding: 1rem;
+    font-size: 80%;
+}
+
+.post-body {
+    padding: 1rem;
+    font-size: 100%;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+.create-category {
+    width: 10rem;
+}
+
+.create-title {
+    width: 50rem;
+}
+
+.create-body {
+    resize: none;
+    width:50rem;
+    height:40rem;
+}
+
+input , select , textarea , button{
+    font-size: 100%;
+    font-family: inherit;
+}
+
+.modify-link {
+    padding: 1rem;
+}
