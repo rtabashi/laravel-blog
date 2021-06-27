@@ -1,2 +1,2 @@
 Laravelで作ったWebアプリケーション
-Laravel Breezeを導入する前に念のため
+Laravel Breezeを導入する前
